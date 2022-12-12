@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crate Opening System</title>
+    <link rel="stylesheet" href="./resources/css/index.css">
+    <link rel="shortcut icon" href="./resources/imgs/crate-icon.png" type="image/x-icon">
+    <script src="./resources/src/script.js"></script>
+</head>
+<body>
+    <div onclick="openCrate()" id="crate-container">
+        <img id="crate" src="./resources/imgs/crate-icon.png" alt="Crate">
+        <h2>Mystery Box</h2>
+    </div>
+
+    <div id="item-probability-box">
+        <div class="item-probability-container">
+            <img src="./resources/imgs/alien-red.png" alt="Alien red">
+            <p style="color: red;">10%</p>
+        </div>
+        <div class="item-probability-container">
+            <img src="./resources/imgs/big-grin.png" alt="Big grin">
+            <p style="color:coral;">20%</p>
+        </div>
+        <div class="item-probability-container">
+            <img src="./resources/imgs/glory-ak47.png" alt="Glory ak47">
+            <p style="color:blue;">50%</p>
+        </div>
+        <div class="item-probability-container">
+            <img src="./resources/imgs/press-vest.png" alt="Press vest">
+            <p>50%</p>
+        </div>
+    </div>
+
+    <!--Item won-->
+    <h2 style="visibility: hidden;" id="congrats" >Congrats You Got!</h2>
+    <div style="visibility: hidden;" id="item-visi" class="item-container">
+        <img id="item-img" src="./" alt="Item">
+        <h4 id="item-name">Item Name</h4>
+        <p id="item-description">Description</p>
+    </div>
+</body>
+</html>

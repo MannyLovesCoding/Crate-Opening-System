@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+* {
+    font-family: 'roboto';
+}
+#crate-container {
+    width: 450px;
+    background-color: burlywood;
+    border: 3px solid brown;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#crate-container img {
+    height: 150px;
+}
+
+#crate-container h2 {
+    border: 4px solid black;
+    background-image: linear-gradient(to right, red , yellow);
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.item-probability-container {
+    display: inline-block;
+    text-align: center;
+    background-color: bisque;
+    border: 3px solid sandybrown;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.item-probability-container p {
+    position: relative;
+    bottom: 15px;
+}
+
+#item-probability-box {
+    margin-top: 25px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.item-container {
+    text-align: center;
+}
+
+.item-container p, .item-container h4 {
+    margin: 0;
+}
